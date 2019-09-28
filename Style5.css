@@ -1,0 +1,35 @@
+/* The following code is to make MainImage Responsive*/ 
+.MainImage{  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh; 
+    border-radius: 0px; 
+    margin-top: 100px  
+ }
+
+/* Change Brand Font*/
+.navbar-brand{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 3em;
+font-weight: bold;                          
+} 
+
+/* Changing the Initial Colour of different options with in Navigation Bar*/
+.navbar #MainMenu .custom-nav .nav-item a { 
+
+    color:#fff;
+}
+
+
+/* Now Change the Color of different options when the user Hovers over it*/
+.navbar #MainMenu .custom-nav .nav-item a:hover { 
+
+    color:burlywood;
+}
+
+
+
+
+
+/* font-family: 'Source Serif Pro', serif;*/
